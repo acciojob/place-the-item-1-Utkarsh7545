@@ -1,18 +1,6 @@
-.container{
+.holder{
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	background-color: blue;
-}
-.container > div{
-	background-color: aqua;
-	margin: 40px;
-	padding: 20px;
-	text-align: center;
-	font-size: 30px;
-	flex: 50%;
-}
-@media (max-width: 600px) {
-  .container {
-    flex-direction: column;
-  }
+	justify-content: space-between;
 }
